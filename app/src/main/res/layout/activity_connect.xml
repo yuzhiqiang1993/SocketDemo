@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.yzq.socketdemo.activity.ConnectActivity">
+
+
+    <EditText
+        android:id="@+id/ipTv"
+        android:hint="请输入ip"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <EditText
+        android:id="@+id/portTv"
+        android:hint="请输入端口号"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+
+    <Button
+        android:id="@+id/connectBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/colorPrimary"
+        android:text="连接"
+        android:textColor="#FFFFFFFF" />
+</LinearLayout>
